@@ -15,7 +15,7 @@ function Links () {
         {
           id: "books",
           url: "http://books.zuri.team",
-          content: "books"
+          content: "Zuri Books"
         },
         {
           id: "book__zuri",
