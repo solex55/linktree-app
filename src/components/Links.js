@@ -30,7 +30,7 @@ function Links () {
         {
           id: "book__design",
           url: "https://books.zuri.team/design-rules",
-          content: "Design Books"
+          content: "Design Book"
         }
       ]
 
