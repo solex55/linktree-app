@@ -3,6 +3,7 @@ import '../App.css';
 
 
 function ContactMe() {
+  const name = 'Solomon'
   return (
     <div className="flex flex-col w-full lg:w-4/5 mx-auto mt-8 px-6 text-xl font-inter">
       <header>
@@ -32,7 +33,7 @@ function ContactMe() {
           <textarea name="message" id="message" cols="30" rows="5" className='w-full block rounded-md  py-4 px-4 shadow-sm border-gray-300 border-2 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50' placeholder="Send me a message and I'll reply you as soon as possible..." required/>
         </div>
 
-        <div className='my-3'><input type="checkbox" className='w-4 h-4  border-blue-300 border-2 rounded-md  shadow checked:shadow-xl focus:ring-blue-200' name="checkbox" id="check" required /> <label for="check" className='font-normal text-base' name="checktext">You agree to providing your data to Zuri who may contact you.</label></div>
+        <div className='my-3'><input type="checkbox" className='w-4 h-4  border-blue-300 border-2 rounded-md  shadow checked:shadow-xl focus:ring-blue-200' name="checkbox" id="check" required /> <label for="check" className='font-normal text-base' name="checktext">You agree to providing your data to {name} who may contact you.</label></div>
         
         <div>
           <button type='submit' className="btn text-2xl font-extralight bg-blue-600 hover:bg-blue-700 active:bg-blue-600 visited:bg-blue-200 gap-3 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" id="btn__submit"> 
