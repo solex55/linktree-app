@@ -3,7 +3,7 @@ import '../App.css';
 
 
 function ContactMe() {
-  const name = 'Solomon'
+  const name = 'Solomon Achugwoh'
   return (
     <div className="flex flex-col w-full lg:w-4/5 mx-auto mt-8 px-6 text-xl font-inter">
       <header>
