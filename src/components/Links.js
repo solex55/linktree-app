@@ -36,7 +36,7 @@ function Links () {
         {
           id: "contact",
           url: "/contact",
-          content: "Contact"
+          content: "Contact Me"
         } */
       ]
 
